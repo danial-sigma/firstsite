@@ -1,0 +1,43 @@
+body{
+    background-color: cadetblue;
+    color: azure;
+    text-align: center;
+    text-decoration-color:black;
+}
+h1{
+    animation: color-change 2s infinite;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250;
+}
+
+iframe{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    33% {
+      color: rgb(63, 58, 107);
+    }
+  
+    66% {
+      color: blue;
+    }
+    80% {
+        color: rgb(63, 58, 107);
+      }
+    100% {
+        color: blue;
+    }
+}
